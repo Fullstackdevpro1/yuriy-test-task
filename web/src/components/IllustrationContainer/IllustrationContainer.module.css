@@ -1,0 +1,36 @@
+.illustrationContainer {
+  position: relative;
+  width: 100%;
+  max-width: 745px;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.contentContainer {
+  display: grid;
+  place-items: center;
+}
+
+.title {
+  color: #fff;
+  margin: 0;
+  font-weight: 600;
+  font-size: 24;
+  line-height: 48px;
+}
+
+.subtitle {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
